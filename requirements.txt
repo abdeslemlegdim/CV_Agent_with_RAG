@@ -1,0 +1,12 @@
+# Pin minimal compatible versions known to work together
+tensorflow>=2.12.0
+scikit-learn>=1.2.2
+nltk>=3.8.1
+seaborn>=0.12.2
+matplotlib>=3.7.1
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+numpy>=1.24.3
+pandas>=2.0.2
+joblib>=1.2.0
+pickle5>=0.0.12

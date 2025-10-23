@@ -1,0 +1,25 @@
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Data and model artifacts
+cv_classifier_system/
+*.h5
+*.weights.h5
+*.pkl
+rag_index.faiss
+
+# Logs
+*.log
