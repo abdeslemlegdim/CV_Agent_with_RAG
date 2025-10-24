@@ -1,4 +1,4 @@
-# CV Classifier and RAG Demo
+# CV Classifier and RAG 
 
 This repository contains a Jupyter notebook (`Untitled28_FV.ipynb`) that demonstrates a full pipeline for classifying resumes (CVs) into categories using a CNN-based text classifier built with TensorFlow/Keras, plus a Retrieval-Augmented Generation (RAG) system for semantic search using SentenceTransformers and FAISS.
 
@@ -68,6 +68,7 @@ If you want help converting the notebook into a standalone Python package or scr
 - export notebook cells into a runnable `cv_classifier.py` script,
 - add a small CLI and unit tests,
 - add GitHub Actions workflow for CI.
+
 
 
 
