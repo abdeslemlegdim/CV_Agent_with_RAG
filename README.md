@@ -43,8 +43,14 @@ Notes and important details
 License
 This project is provided under the MIT License — see `LICENSE`.
 
+<img width="1489" height="590" alt="plot" src="https://github.com/user-attachments/assets/dd7a883d-4aaf-485f-9ec9-82f641c476dd" />
+<img width="1103" height="989" alt="matrix" src="https://github.com/user-attachments/assets/70011e5b-a513-48c2-80f8-b57d1896d625" />
+<img width="1389" height="990" alt="accuracy per category" src="https://github.com/user-attachments/assets/8a78ee10-db7a-43b4-90ee-3c964b1d10d9" />
+<img width="1489" height="989" alt="distribution of categories" src="https://github.com/user-attachments/assets/5c037842-c68d-4248-8e95-bdadc5940ebf" />
+
 Contact
 If you want help converting the notebook into a standalone Python package or script, tell me and I will:
 - export notebook cells into a runnable `cv_classifier.py` script,
 - add a small CLI and unit tests,
 - add GitHub Actions workflow for CI.
+
