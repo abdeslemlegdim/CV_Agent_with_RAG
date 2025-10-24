@@ -42,14 +42,25 @@ Notes and important details
 
 License
 This project is provided under the MIT License — see `LICENSE`.
+Figure — Distribution of categories. 
 <img width="1489" height="989" alt="distribution of categories" src="https://github.com/user-attachments/assets/5c037842-c68d-4248-8e95-bdadc5940ebf" />
-Figure — Distribution of categories. This plot visualizes how the dataset is distributed across the different resume categories (class imbalance). It helps explain class frequency issues and justifies any sampling or class-weighting strategies used during training.
+
+This plot visualizes how the dataset is distributed across the different resume categories (class imbalance). It helps explain class frequency issues and justifies any sampling or class-weighting strategies used during training.
+
+Figure — Training metrics over epochs. 
 <img width="1489" height="590" alt="plot" src="https://github.com/user-attachments/assets/dd7a883d-4aaf-485f-9ec9-82f641c476dd" />
-Figure — Training metrics over epochs. This plot shows model training progress across epochs (loss and/or accuracy for training and validation). It helps check for underfitting/overfitting and whether the model converged.
+
+This plot shows model training progress across epochs (loss and/or accuracy for training and validation). It helps check for underfitting/overfitting and whether the model converged.
+
+Figure — Confusion matrix. 
 <img width="1103" height="989" alt="matrix" src="https://github.com/user-attachments/assets/70011e5b-a513-48c2-80f8-b57d1896d625" />
-Figure — Confusion matrix. The confusion matrix displays how predictions compare to true labels across classes, highlighting common misclassifications and which pairs of classes are most frequently confused. This is useful when diagnosing model weaknesses and planning targeted improvements.
+
+The confusion matrix displays how predictions compare to true labels across classes, highlighting common misclassifications and which pairs of classes are most frequently confused. This is useful when diagnosing model weaknesses and planning targeted improvements.
+
+Figure — Accuracy per category. 
 <img width="1389" height="990" alt="accuracy per category" src="https://github.com/user-attachments/assets/8a78ee10-db7a-43b4-90ee-3c964b1d10d9" />
-Figure — Accuracy per category. This bar chart shows the classification accuracy (or F1-score) for each label/category in the resume dataset. Use this to identify which categories the model predicts well and which need more training data or feature engineering.
+
+This bar chart shows the classification accuracy (or F1-score) for each label/category in the resume dataset. Use this to identify which categories the model predicts well and which need more training data or feature engineering.
 
 
 Contact
@@ -57,5 +68,6 @@ If you want help converting the notebook into a standalone Python package or scr
 - export notebook cells into a runnable `cv_classifier.py` script,
 - add a small CLI and unit tests,
 - add GitHub Actions workflow for CI.
+
 
 
